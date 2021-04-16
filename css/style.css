@@ -1,0 +1,74 @@
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 80px 100px;
+}
+
+.grid1 {
+  grid-area: 1/1/2/2;
+  width: 70%;
+}
+.grid1 h1 {
+  color: #502050;
+  font-size: 48px;
+  line-height: 1em;
+  letter-spacing: -0.03em;
+}
+.grid1 p {
+  color: #937b92;
+  font-size: 15px;
+  margin-top: -20px;
+  line-height: 1.6em;
+}
+
+.grid2 {
+  grid-area: 1/2/2/3;
+}
+
+.grid3 {
+  grid-area: 2/1/3/3;
+  display: flex;
+  gap: 30px;
+}
+.grid3__card {
+  background-color: #502050;
+  color: white;
+  margin-top: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.grid3__card img {
+  border-radius: 50%;
+  width: 40px;
+}
+.grid3__card--info {
+  display: inline-block;
+}
+.grid3__card--info .name {
+  color: #f7f2f7;
+  font-weight: bold;
+}
+.grid3__card--info .status {
+  color: #ee68a4;
+}
+.grid3__card p {
+  color: #f7f2f7;
+  padding-top: 10px;
+  line-height: 1.8em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
