@@ -8,7 +8,10 @@ $light_grayish_magenta: hsl(300, 24%, 96%);
 $white: hsl(0, 0%, 100%);
 
 //Font
-$header_font_size: 48px;
-$body_font_size: 15px;
-$text_font_size: 13px;
+$font_size: 15px;
 $font_family: 'Spartan', sans-serif;
+
+//Font Weight
+$normal_font: 400;
+$medium_font: 500;
+$bold_font: 700;
